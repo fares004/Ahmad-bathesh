@@ -13,11 +13,32 @@
     --text-color:#fff;
     --text-font-family: "Cairo", sans-serif;
 }
+
+/* تخصيص شريط التمرير */
+::-webkit-scrollbar {
+  width: 12px; 
+}
+/* تخصيص لون مسار شريط التمرير */
+::-webkit-scrollbar-track {
+  background: var(--bg--color); 
+}
+/* تخصيص لون مقبض شريط التمرير */
+::-webkit-scrollbar-thumb {
+  background-color: var(--main--color);
+  border-radius: 6px; 
+  border: 3px solid var(--bg--color); 
+}
+/* تخصيص لون مقبض شريط التمرير عند التمرير عليه */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--main--color);
+}
 .Dev-team{
     position: relative;
     right: 0;
     align-items: center;
     justify-content: center;
+    margin: 10px;
+
 }
 .contact-team {
     display: flex;
