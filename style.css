@@ -64,7 +64,7 @@
   }
   .member-card{
     flex: 1 1 30%;
-    margin: 10px;
+    margin: 10px ;
     background-color: var(--bg--color);
     border: 1px solid #e1e1e1;
     border-radius: 8px;
@@ -151,11 +151,11 @@
     color: var(--bg--color);
     box-shadow: 0 0 1rem var(--main--color);
   }
-  footer{
+  .Prog{
     text-align: center;
     margin-bottom:15px ;
   }
-  footer a{
+  .Prog a{
     font-family: "Indie Flower", cursive;
     font-size: 1.2rem;
     color: #e81af2;
